@@ -111,7 +111,7 @@ header{
     width: 23%;
     background-color: rgb(255, 255, 255);
     height: 25rem;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 15px 10px 50px rgb(211, 211, 211),-15px -10px 50px rgb(211, 211, 211);
 }
 .card-top{
