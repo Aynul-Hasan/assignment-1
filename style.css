@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* global */
+
+.btn-global{
+    text-decoration:  none;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-image: linear-gradient(to left,rgb(255, 104, 17) , rgb(228,122,0));
+    border-radius: 30px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    box-shadow: 2px 3px 10px;
+}
+
+
+/* header section css start */
+
+header{
+    display: flex;
+    justify-content: space-around;
+    background-image: url(./img/Frame\ 56.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+
+}
+.header-left{
+    margin-top: 13rem;
+    padding-left: 40px;
+
+}
+.header-left-h1{
+    font-size: 55px;
+    font-weight: 800;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+    color: #464646;
+
+}
+.header-left-h1 span{
+    color:rgb(228, 125, 0);
+}
+.header-left p{
+    font-size: 22px;
+    letter-spacing: 1px;
+    color:#3b3b3b;
+    margin-bottom: 30px;
+}
+
+
+.header-right{
+    margin-top: 30px;
+
+}
+
+/* header section css end */
+/* about me css start */
+#about-me{
+    display: flex;
+    justify-content: space-around;
+    background-image: url(img/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.about-me-left{
+    margin-top: 50px;
+    width: 50%;
+    text-align: center;
+
+}
+.about-me-right{
+    width: 50%;
+    padding: 100px 200px 100px 40px;
+}
+.about-me-right-h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    color: #464646;
+    margin-bottom: 2rem;
+}
+.about-me-right p{
+    margin-bottom: 3rem;
+}
+
+/* about me css end */
+/* recipies css start*/
+#recipie{
+    margin: 50px 0 100px 0;
+}
+.recipie-h1{
+    margin-bottom: 1rem;
+    color: #464646;
+    text-align: center;
+    font-family: sans-serif;
+}
+.recipie-p{
+    text-align: center;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.card-1{
+    margin-top: 50px;
+    width: 23%;
+    background-color: rgb(255, 255, 255);
+    height: 25rem;
+    border-radius: 10px;
+    box-shadow: 15px 10px 50px rgb(211, 211, 211),-15px -10px 50px rgb(211, 211, 211);
+}
+.card-top{
+    text-align: center;
+}
+.card-top img{
+    margin: 15px 0;
+}
+.card-bottom{
+    padding: 0 20px;
+}
+
+/* recipies css end */
+/* footer css start */
+footer{
+    height: 12rem;
+    background-color: rgb(2, 2, 17);
+    text-align: center;
+    padding-top: 30px;
+}
+footer h1{
+    color: rgb(39, 38, 38);
+    margin-bottom: 2rem;
+}
+footer h1 span{
+    color: rgb(228, 125, 0);
+}
+footer p{
+    color: rgb(231, 228, 228);
+    font-style: italic;
+}
