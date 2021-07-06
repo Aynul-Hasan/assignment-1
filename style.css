@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 /* global */
 
 .btn-global{
@@ -13,9 +16,49 @@
     color: #fff;
     font-size: 20px;
     font-weight: 500;
-    box-shadow: 2px 3px 10px;
+    box-shadow: 2px 3px 10px rgba(255, 104, 17, 0.842) ,-2px -3px 20px rgba(255, 104, 17, 0.801);
+}
+/* navbar css start */
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background:rgb(4, 4, 32);
+
+}
+.logo-section{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(255, 104, 17);
+    padding-left: 30px;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+.navbar-nav .nav-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+
+}
+.nav-li{
+    list-style: none;
+    margin: 10px 15px;
+
+}
+.nav-li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
 }
 
+/* navbar css end  */
 
 /* header section css start */
 
@@ -90,7 +133,7 @@ header{
 /* about me css end */
 /* recipies css start*/
 #recipie{
-    margin: 50px 0 100px 0;
+    margin: 50px 0 150px 0;
 }
 .recipie-h1{
     margin-bottom: 1rem;
@@ -107,6 +150,7 @@ header{
     
 }
 .card-1{
+    cursor: pointer;
     margin-top: 50px;
     width: 23%;
     background-color: rgb(255, 255, 255);
@@ -125,6 +169,49 @@ header{
 }
 
 /* recipies css end */
+/* contact css start  */
+.contact-div{
+    margin: 10rem 0; 
+    display: flex;
+    justify-content: space-around;
+}
+#contact h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: sans-serif;
+    color: #464646;
+}
+.contact-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.contact-right{
+    width: 50%;
+}
+.contact-right div{
+    margin-bottom: 20px;
+}
+.contact-right div input, textarea{
+    width: 50%;
+    padding: 5px 20px;
+}
+.contact-right div input{
+    height: 35px;
+}
+.submit-btn{
+    background-color: rgb(255, 104, 17);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    width: 57%;
+    cursor: pointer;
+}
+
+
+/* contact css end */
 /* footer css start */
 footer{
     height: 12rem;
